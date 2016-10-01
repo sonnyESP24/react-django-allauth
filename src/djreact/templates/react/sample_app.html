@@ -1,0 +1,8 @@
+{% extends "react/base.html" %}
+{% load render_bundle from webpack_loader %}
+
+{% block main %}
+<div id="SampleApp"></div>
+{% render_bundle 'vendors' %}
+{% render_bundle 'SampleApp' %}
+{% endblock %}

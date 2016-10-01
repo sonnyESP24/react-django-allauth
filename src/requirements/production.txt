@@ -1,0 +1,29 @@
+# Install everything that needs to be compiled
+-r compiled.txt
+
+# Templates
+django_compressor
+
+# Security
+bleach
+
+# Celery: Message queue
+celery
+django-celery
+
+# Caching
+python-memcached
+
+# Admin
+django-debug-toolbar
+
+# Registration /Authentication
+django-allauth
+
+# Image processing
+Pillow
+
+
+billiard
+django-appconf
+sqlparse
